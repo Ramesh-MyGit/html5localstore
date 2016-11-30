@@ -1,0 +1,40 @@
+﻿table.gridView{    
+    border: 4px solid rgb(226, 226, 226);    
+    width: 345px;
+    margin-top: 30px;
+    border-collapse: collapse;
+
+    tr{
+        margin: 0px 5px;
+        padding: 5px;        
+    }
+
+    tr.rowOdd{
+        background-color: rgb(240, 240, 240);
+    }
+
+    td{        
+        min-width: 100px;
+
+        &:first-child{
+            padding: 15px 5px;     
+            font: 14px "Georgia";  
+            font-weight: bold;                        
+            text-align: right;       
+        }
+
+        &:nth-child(2){
+            padding: 15px 5px;     
+            font: 12px "Arial";
+            font-weight: normal;               
+            text-align: left;
+        }
+
+        &:last-child{
+            padding: 15px 5px;                    
+            font: 12px "Arial";
+            font-weight: bold;            
+            text-align: right;
+        }
+    }
+}
