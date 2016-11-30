@@ -1,0 +1,38 @@
+﻿body {
+    font: 14px "Arial";    
+    font-weight: bold;
+    margin: 0px;
+
+    .contentAreaContainer{
+        background-color: rgb(255, 255, 255);
+        margin: 0px auto;                        
+        width: 781px;         
+        border: 10px solid rgb(240, 240, 240);
+        border-top: 0px;
+
+        .contentArea{
+            margin: 0px auto;
+            
+            .leftArea{
+                padding: 30px 34px;
+                width: 320px;
+                display: inline-block;                                                      
+            }
+
+            .rightArea{                
+                padding: 30px 19px 75px 19px;
+                vertical-align: top;                              
+                border-left: 5px solid rgb(240, 240, 240);      
+                display: inline-block;                   
+            }
+        }
+    }
+}
+
+.itemGroup{
+    padding-top: 30px;    
+
+    .itemLabel{
+        padding-bottom: 8px;
+    }
+}
